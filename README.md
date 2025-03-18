@@ -24,8 +24,8 @@ A Model Context Protocol (MCP) server for interacting with DaVinci Resolve and F
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/resolve-mcp.git
-   cd resolve-mcp
+   git clone https://github.com/apvlv/davinci-resolve-mcp.git
+   cd davinci-resolve-mcp
    ```
 
 2. Install the required dependencies:
@@ -36,6 +36,11 @@ A Model Context Protocol (MCP) server for interacting with DaVinci Resolve and F
 3. Install the MCP server in Claude Desktop:
    ```
    mcp install src/resolve_mcp/server.py
+   ```
+
+   Alternatively, you can install with the editable flag for development:
+   ```
+   mcp install src/resolve_mcp/server.py --with-editable .
    ```
 
 ## Usage
