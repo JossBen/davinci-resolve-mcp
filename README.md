@@ -45,9 +45,25 @@ A Model Context Protocol (MCP) server for interacting with DaVinci Resolve and F
 
 ## Usage
 
+### With Claude Desktop
+
 1. Start DaVinci Resolve
 2. In Claude Desktop, connect to the "DaVinci Resolve MCP" server
 3. You can now interact with DaVinci Resolve through Claude
+
+### With 5ire
+
+[5ire](https://5ire.app/) is an open-source cross-platform desktop AI assistant and MCP client that's compatible with this server.
+
+1. Install 5ire from [GitHub](https://github.com/nanbingxyz/5ire) or using Homebrew on macOS:
+   ```
+   brew tap brewforge/extras
+   brew install --cask 5ire
+   ```
+2. Start DaVinci Resolve
+3. In 5ire, add the DaVinci Resolve MCP server
+4. Connect to the server using your preferred AI model (OpenAI, Claude, etc.)
+5. You can now interact with DaVinci Resolve through 5ire
 
 ## Available Commands
 
