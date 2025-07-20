@@ -27,6 +27,11 @@ except ImportError as e:
     traceback.print_exc(file=sys.stderr)
     raise
 
+# Add the src directory to the Python path so we can import our modules
+src_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if src_dir not in sys.path:
+    sys.path.insert(0, src_dir)
+
 try:
     # Try absolute import first (when installed as a package)
     from resolve_mcp.resolve_api import ResolveAPI
