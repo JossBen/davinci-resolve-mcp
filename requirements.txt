@@ -1,3 +1,14 @@
+# Core MCP requirements
 mcp>=0.3.0
 pydantic>=2.0.0
 typing-extensions>=4.0.0
+
+# Slate detection dependencies (optional)
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+numpy>=1.21.0
+Pillow>=9.0.0
+
+# For video frame extraction
+imageio>=2.25.0
+imageio-ffmpeg>=0.4.8

@@ -1,0 +1,1 @@
+1) Always run scritps in the .venv environment
